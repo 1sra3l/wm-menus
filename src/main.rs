@@ -3,9 +3,10 @@ mod menu;
 mod apps;
 use std::env;
 fn usage() {
-    println!("jwm-menus [OPTIONS]
-    -p || --places || places      Show a places menu
-    -a || --apps || apps          Show an application menu
+    println!("wm-menus [OPTIONS]
+    -p || --places || places      Show a places menu for JWM
+    -a || --apps || apps          Show an application menu for JWM
+    -o || --openbox || openbox    Show an application menu for openbox
 ");
 }
 fn main() {
